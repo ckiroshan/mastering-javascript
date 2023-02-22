@@ -34,4 +34,16 @@ console.log(selectedColor); // (3) ['red', 'white', 'green']
 selectedColor[3] = 4;
 console.log(selectedColor); // (4) ['red', 'white', 'green', 4]
 
-console.log(selectedColor.length) // 4
+console.log(selectedColor.length); // 4
+
+// <================= Functions =================>
+
+function greet(name, age) {
+  console.log("Hi, I'm " + name + "!");
+  //   'name' is a parameter of greet function.
+  console.log("I'm " + age + " years old!");
+}
+
+greet("Kane", 23);
+// 'Kane' & 'age' are the arguments of greet function.
+
