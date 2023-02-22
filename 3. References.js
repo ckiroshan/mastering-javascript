@@ -47,3 +47,15 @@ function greet(name, age) {
 greet("Kane", 23);
 // 'Kane' & 'age' are the arguments of greet function.
 
+// <================= Types of Functions =================>
+
+// Calculating the power of a value
+
+function square(number) {
+  return number * number;
+}
+
+let givenNumber = 10;
+let powerNumber = square(givenNumber);
+ 
+// Output: The power of 10 = 100
