@@ -8,7 +8,7 @@ Fundamentals of programming\
 All about variables and types\
 Operators (arithmetic, comparison, logical, bitwise, etc)\
 Conditional statements (if/else, switch/case)\
-Loops (for, while, do-white)\
+Loops (for, while, do-while)\
 All about Objects\
 All about Arrays\
 Functions\
