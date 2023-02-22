@@ -1,3 +1,3 @@
 # JavaScript Fundamentals
 
-This Repo was created to that explains the basic fundamentals of JS.
+This Repo explains the basic fundamentals of JS.
