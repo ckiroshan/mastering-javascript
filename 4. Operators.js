@@ -99,6 +99,7 @@ console.log("<================= Ternary Operators =================>");
  * else they are a 'Silver' customer.
  */
 
+/*
 let customerName = prompt("What is your name?");
 let pointsInHand = null;
 
@@ -107,4 +108,36 @@ pointsInHand = prompt("What is your current points score?");
 let memberType = pointsInHand > 100 ? "Gold" : "Silver";
 
 console.log("Hi "+ customerName + ", You are a " + memberType + ' member!')
+*/
+console.log("");
 
+console.log("<================= Logical Operators =================>");
+
+console.log("Logical AND (&&)");
+
+let highIncome = true;
+let goodCreditScore = true;
+let eligibleForLoan = highIncome && goodCreditScore;
+
+console.log(eligibleForLoan); // True
+// In '&&' if both operands True, result is true. else false.
+
+console.log("Logical OR (||)");
+
+highIncome = true;
+goodCreditScore = false;
+eligibleForLoan = highIncome || goodCreditScore;
+
+console.log(eligibleForLoan); // True
+// In '||' if either one of the operands are True, result is true. else false.
+
+console.log("Logical NOT (!)");
+
+highIncome = false;
+goodCreditScore = false;
+eligibleForLoan = highIncome || goodCreditScore;
+
+console.log("Eligible", eligibleForLoan); // True
+
+let applicationRefused = !eligibleForLoan;
+console.log("Is application refused", applicationRefused);
