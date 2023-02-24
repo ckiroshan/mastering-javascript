@@ -50,4 +50,18 @@ console.log((x %= 5)); // 4
 console.log((x **= 5)); // 1024
 console.log("");
 
+// <================= Comparison Operators =================>
 
+// Relational Operators
+x = 10;
+
+console.log(x > 0); // x greater than 0 => True
+console.log(x >= 10); // x greater than or equal 10 => True
+console.log(x < 10); // x less than 10 => False
+console.log(x <= 10); // x less than or equal 10 => True
+console.log("");
+
+// Equality Operators
+console.log(x === 10) // If x is equal to 10 => True
+console.log(x !== 10) // If x is not equal to 10 => False
+console.log("");
