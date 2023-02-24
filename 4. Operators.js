@@ -1,4 +1,4 @@
-// <================= Arithmetic Operators =================>
+console.log("<================= Arithmetic Operators =================>");
 
 let x = 4;
 let y = 10;
@@ -38,7 +38,7 @@ console.log(x--); // 19
 console.log(x); // 18
 console.log("");
 
-// <================= Assignment Operators =================>
+console.log("<================= Assignment Operators =================>");
 
 x = 10;
 console.log("Now value of X = " + x);
@@ -54,7 +54,7 @@ console.log((x %= 5)); // 4
 console.log((x **= 5)); // 1024
 console.log("");
 
-// <================= Comparison Operators =================>
+console.log("<================= Comparison Operators =================>");
 
 // Relational Operators
 x = 10;
@@ -71,7 +71,7 @@ console.log(x === 10); // If x is equal to 10 => True
 console.log(x !== 10); // If x is not equal to 10 => False
 console.log("");
 
-// <================= Equality Operators =================>
+console.log("<================= Equality Operators =================>");
 
 x = 1;
 console.log("Now value of X = " + x);
@@ -83,9 +83,28 @@ console.log("x" === 1); // False
 
 // Lose equality operator
 console.log(x == 1); // True
-console.log('x' == 1); // True (Console is false)
+console.log("x" == 1); // True (Console is false)
 // This is true as x is string, it would convert 1 into a string as well.
 // But this is currently shown in console as false.
 console.log(true == 1); // True
 // This is true as x is boolean, it would convert 1 into a boolean as well
 console.log(false == 0); // True
+console.log("");
+
+console.log("<================= Ternary Operators =================>");
+
+/**
+ * If a customer has more than 100 points.
+ * they are a 'Gold' customer.
+ * else they are a 'Silver' customer.
+ */
+
+let customerName = prompt("What is your name?");
+let pointsInHand = null;
+
+pointsInHand = prompt("What is your current points score?");
+
+let memberType = pointsInHand > 100 ? "Gold" : "Silver";
+
+console.log("Hi "+ customerName + ", You are a " + memberType + ' member!')
+
