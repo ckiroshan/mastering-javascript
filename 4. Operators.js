@@ -34,3 +34,20 @@ console.log(x--); // 19
 console.log(x); // 18
 console.log("");
 
+// <================= Assignment Operators =================>
+
+x = 10;
+console.log(x);
+
+x = x + 9;
+console.log(x); // 19 // A shorthand to above one.
+
+console.log((x += 5)); // 24
+console.log((x -= 5)); // 19
+console.log((x *= 5)); // 95
+console.log((x /= 5)); // 19
+console.log((x %= 5)); // 4
+console.log((x **= 5)); // 1024
+console.log("");
+
+
