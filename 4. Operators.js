@@ -185,4 +185,22 @@ myPermission = myPermission | readPermission | writePermission
 let displayMessage = (myPermission & readPermission) ? "Yes" : "No";
 // Using bitwise AND: we can check if we have given permission.
 console.log(displayMessage)
+console.log("");
 
+
+console.log("<================= Exercise 01 =================>");
+
+let a = "red";
+let b = "blue";
+
+console.log(a);
+console.log(b);
+
+// Swap the values of 'a' & 'b'.
+
+let c = a;
+a = b;
+b = c;
+
+console.log(a);
+console.log(b);
