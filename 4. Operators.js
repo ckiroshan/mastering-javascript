@@ -141,3 +141,48 @@ console.log("Eligible", eligibleForLoan); // True
 
 let applicationRefused = !eligibleForLoan;
 console.log("Is application refused", applicationRefused);
+
+console.log("");
+
+console.log("<================= Bitwise Operators =================>");
+
+// 1 byte = 8 bits
+// 1 = 00000001
+// 2 = 00000010
+
+console.log("Bitwise OR: " + (1 | 2));
+/**
+ * 1 = 00000001
+ * 2 = 00000010
+ * R = 00000011
+ * Result: 00000011 = 3
+*/
+
+console.log("Bitwise AND: " + (1 & 2));
+/**
+ * 1 = 00000001
+ * 2 = 00000010
+ * R = 00000000
+ * Result: 00000000 = 0
+*/ 
+
+/**
+ * A user access control system
+ * User permissions: read, write, execute 
+ * Read -    00000100 : Decimal 4
+ * Write -   00000010 : Decimal 2
+ * Execute - 00000001 : Decimal 1
+*/
+
+const readPermission = 4;
+const writePermission = 2;
+const executePermission = 1;
+
+let myPermission = 0;
+myPermission = myPermission | readPermission | writePermission
+// Using bitwise OR: we can add permissions.
+
+let displayMessage = (myPermission & readPermission) ? "Yes" : "No";
+// Using bitwise AND: we can check if we have given permission.
+console.log(displayMessage)
+
