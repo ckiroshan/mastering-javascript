@@ -1,16 +1,29 @@
-# JavaScript Fundamentals
+# JavaScript from Basics to Advanced Concepts
 
-This Repo explains the basic fundamentals of JS. 
+![preview img](/preview.jpg)
 
-##  Areas covered
+The Repo is about the fundamentals of programming in JavaScript that I used to learn and improve my JavaScript programming knowledge & skills. This repo consisting of,
+1. JavaScript Basics
+2. Advanced JavaScript
+3. JavaScript Exercises
 
-Fundamentals of programming\
-All about variables and types\
-Operators (arithmetic, comparison, logical, bitwise, etc)\
-Conditional statements (if/else, switch/case)\
-Loops (for, while, do-while)\
-All about Objects\
-All about Arrays\
-Functions\
-Error handling\
-And much, much more!
+Each section consists following concepts & more.
+
+## JavaScript Basics
+- Basic JavaScript Fundamentals
+- Variables, data types, control flow
+- Numbers, strings, arrays, loops
+- Casting, reading inputs, error handling
+- objects, arrays, functions etc..
+
+## Advanced JavaScript
+- Functions, closures
+- Object-Oriented Programming (OOP) - Prototype, Inheritance, Encapsulation
+- Modules, Imports/Exports
+- Error Handling, Debugging Techniques
+- DOM Manipulation and Events
+- Async/Await, Promises etc..
+
+## JavaScript Exercises
+- JavaScript Basics
+- More exercises coming soon...
