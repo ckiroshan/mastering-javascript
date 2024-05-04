@@ -13,3 +13,13 @@ console.log(items);
 const stringItems = "<ul>" + items.join("") + "</ul>";
 console.log(stringItems);
 
+// Map elements to objects
+const objectItems = filtered.map((n) => ({ value: n }));
+console.log(objectItems);
+
+// Chaining methods
+const objectItemsAgain = numbers
+.filter((value) => value >= 0)
+.map((n) => ({ value: n }));
+
+console.log(objectItemsAgain);
