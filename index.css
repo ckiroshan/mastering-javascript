@@ -1,11 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Freeman&display=swap");
 
+:root {
+  margin: 0 20px;
+}
+
 body {
   font-family: "Freeman", "Roboto", "Courier New", Courier, monospace;
   background: #000000dc;
   color: #ffffffc7;
 }
 
-h1{
-    font-size: 42px; /* Default size: 34px */
+h1 {
+  font-size: 42px; /* Default size: 34px */
+}
+
+.active {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+  color: #fff;
+}
+
+.p-text {
+ font-size: 2rem;
+ font-weight: 600;
+}
+
+.img-mod {
+  width: 440px;
 }
