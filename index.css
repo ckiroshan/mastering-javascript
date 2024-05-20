@@ -26,10 +26,49 @@ h1 {
 }
 
 .p-text {
- font-size: 2rem;
- font-weight: 600;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
 .img-mod {
   width: 440px;
+}
+
+/* Custom button style */
+.newButton {
+  position: relative;
+  background-color: var(--element-color);
+  color: var(--white-text);
+  font-family: var(--font);
+  text-shadow: var(--font-shadow);
+  border: none;
+  border-radius: 15px;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.newButton:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.newButton:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
 }
