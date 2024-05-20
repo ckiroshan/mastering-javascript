@@ -2,12 +2,18 @@
 
 :root {
   margin: 0 20px;
+  --font: "Freeman", "Roboto", "Courier New", Courier, monospace;
+  --default-text: #ffffffc7;
+  --white-text: #fff;
+  --back-color: #000000dc;
+  --element-color: #f0db4f;
+  --font-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
 }
 
 body {
-  font-family: "Freeman", "Roboto", "Courier New", Courier, monospace;
-  background: #000000dc;
-  color: #ffffffc7;
+  font-family: var(--font);
+  background: var(--back-color);
+  color: var(--default-text);
 }
 
 h1 {
@@ -15,8 +21,8 @@ h1 {
 }
 
 .active {
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
-  color: #fff;
+  text-shadow: var(--font-shadow);
+  color: var(--white-text);
 }
 
 .p-text {
