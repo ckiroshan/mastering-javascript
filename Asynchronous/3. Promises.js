@@ -14,8 +14,8 @@ function registerUser() {
 function sendOTP() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
+      return reject("OTP request failed, please try again later");
       console.log("One Time Password has been sent");
-      resolve();
     }, 4000);
   });
 }
@@ -47,4 +47,11 @@ function DisplayUserData() {
 console.log("===== Other processes =====");
 console.log("Loading Other User Data");
 
-registerUser().then(sendOTP).then(login).then(getUserData).then(DisplayUserData);
+registerUser()
+  .then(sendOTP)
+  .then(login)
+  .then(getUserData)
+  .then(DisplayUserData)
+  .catch((error) => {
+    console.error("Error: " + error);
+  });
